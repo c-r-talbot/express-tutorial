@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title=title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(name='viewport', content='width=device-width, initial scale=1.0')
+    link(href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet")
+  body
+    block title 
+    block nav
+      nav
+        ul
+          li
+            a(href="http://www.example.com") Example 1
+          li 
+            a(href="http://www.example.com") Example 2
+          li 
+            a(href="http://www.example.com") Example 3
+    block content
+    block foot
+      footer
+        ul 
+          li Copyright 2008

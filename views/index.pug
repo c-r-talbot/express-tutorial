@@ -1,0 +1,16 @@
+extends layout
+
+block title
+  section.titleBlock
+    h1 Check 123
+    p Welcome to #{title}, #{name}
+block content
+  div(id="wrapper").content
+    section.intro
+      h2 First Content Type
+      p Here's the first piece of content we'll create, isn't this swell? This is an entire paragraph that will span across multiple lines. This could also probably be markdown__ if we wanted it to, yes?
+      p Here's intro paragraph 2. This is where we really start to get into it. Yep. Indentation looks a bit odd when the line doesn't finish the box and doesn't wrap.
+    section.images
+        img.smallImage(src="images/strawberries_no_red.jpg", alt = "strawberries with no red pixels")
+        img.smallImage(src="images/staring_at_clock.png")
+

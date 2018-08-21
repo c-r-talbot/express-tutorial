@@ -1,0 +1,126 @@
+body {
+  font-family:'Righteous', cursive;
+  position:relative;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+h1{
+  font-size: 3em;
+}
+h2{
+  font-size: 2em;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background:transparent;
+  background-color: rgb(0, 0, 0);
+  position: sticky;
+  overflow: hidden;
+  font-size:.75em;
+}
+nav ul li{
+  list-style-type:none;
+  float:right;
+  margin:0;
+  /* border-right:1px solid; */
+  padding-right:5%;
+  /* padding-left:5%; */
+}
+  nav ul li a {
+    /* font: 1em Helvetica; */
+    color:lightcyan;
+    font-size:160%;
+    /* font-weight: bold; */
+    border-bottom:1px solid;
+    border-right: 5px solid;
+    border-bottom-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    /* letter-spacing:1px; */
+    text-decoration:none;
+  }
+  nav ul li a:hover{
+    color: lightyellow;
+    cursor: pointer;
+    font-style:italic;
+    border-bottom-color: lightyellow;
+    border-bottom-style: double;
+    /*font-weight: bold;*/
+    /* letter-spacing:.7px; */
+  }
+.titleblock{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+.titleblock:hover{
+  background:gray solid;
+}
+.titleBlock p, .titleBlock h1{
+  padding:0;
+  margin:0;
+  margin-left: 40%;
+  /* font: 3em Georgia, bold; */
+}
+.titleBlock p{
+  /* font: 1em Garamond; */
+  font-style: italic;
+}
+.intro{
+  width:100%;
+  /* font: 1.25em Garamond; */
+  margin:0;
+  position:relative;
+  box-sizing:border-box;
+  padding-left:5%;
+  padding-right:5%;
+}
+.intro p{
+  /* text-indent:1em; */
+}
+.content{
+  /* height: 100vw; */
+  padding-bottom: 6rem;
+  margin: 0 auto;
+}
+.images{
+  position:relative;
+  /* position:relative; */
+  /* box-sizing:border-box; */
+  display:inline-block;
+
+}
+.smallImage{
+  max-width: 20%;
+  size: auto;
+  padding-right:5%;
+  }
+
+footer{
+  height:50px;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  opacity: 0.1;
+  background-color: rgb(113, 123, 255);
+}
+footer ul{
+  list-style-type: none;
+    /* bottom:0; */
+  /* overflow: auto; */
+}
+footer ul li{
+  float:right;
+  margin:0;
+  /* border-right:1px solid; */
+  color: lightcyan;
+  padding-right:5%;
+  padding-left:5%;
+}
